@@ -1,0 +1,4 @@
+FROM phpmyadmin/phpmyadmin
+
+#set phpmyadmin environment
+COPY config.inc.php /etc/phpmyadmin/config.inc.php

@@ -1,0 +1,9 @@
+FROM mysql:8
+
+#set mysql environment
+ENV MYSQL_ROOT_PASSWORD=Password
+ENV MYSQL_DATABASE=Laravel
+ENV MYSQL_USER=user
+ENV MYSQL_PASSWORD=Password
+
+CMD ["mysqld"]
