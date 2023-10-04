@@ -9,6 +9,7 @@ In this repo you can find the design and the code for the veterinarian micro ser
 * All credentials to different services are stored in a variables.env file. So you have to set that up as well.
 
 ## Work to be done
+womp
 
 * a lot of repitition is still in the code, this can be optimised.
 * some of the responses are not that neatly setup, especially the statuscodes and the json could be better
